@@ -1,0 +1,18 @@
+.inputSearch {
+  display: flex;
+  justify-content: center;
+}
+
+.inputSearch input {
+  width: 300px;
+}
+
+.ml-4 {
+  margin-left: 20px;
+}
+
+.buttons {
+  display: flex;
+  justify-content: center;
+  margin: 25px;
+}
