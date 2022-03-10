@@ -4,6 +4,7 @@ export const getGifs = async (category) => {
   )}&limit=50&api_key=GpGfIoNrKaPB61AVFD5Iha6CSDEsx7PG`;
   const resp = await fetch(url);
   const { data } = await resp.json();
+  console.log(data);
   const gifs = data.map((img) => {
     return {
       id: img.id,
